@@ -13,6 +13,7 @@ const Tags: React.FC<TagsProps> = ({ tags }: TagsProps) => {
 
 const Tag = styled.div`
   border: 2px solid black;
+  border-radius: 3px;
 `;
 
 type TagsProps = {
